@@ -1,8 +1,46 @@
 .navigation{
     position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 16px 96px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.navigation ul li{
-    display: inline-block;
-    padding: 12px;
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation .logo{
+    /* color: #e32124; */
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 4px;
+    padding: 0px 4px 0px 8px;
+    outline: #18AD00 solid 2px;
+    text-align: center;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Corbel'; */
+    border-radius: 2px;
+}
+
+.navigation div a{
+    padding: 8px 16px;
+}
+
+.navigation .button{
+    padding: 10px 24px;
+    border: 1px solid #18AD00;
+    color: #18AD00;
+    border-radius: 32px;
+}
+
+.navigation .button:hover{
+    background-color: #18AD00;
+    color: white;
+}
+
+.navigation div a:hover{
+    color: #18AD00;
 }

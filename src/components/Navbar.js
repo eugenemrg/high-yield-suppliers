@@ -5,13 +5,13 @@ import styles from './Navbar.module.css'
 function Navbar() {
   return (
     <nav className={styles.navigation}>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/#products">Product</Link></li>
-        <li><Link to="/services">Service</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/contact">Contact Us</Link></li>
-      </ul>
+      <Link to="/" className={styles.logo}>HYS</Link>
+      <div>
+        <Link to="/#products">Products</Link>
+        <Link to="/services">Services</Link>
+        <Link to="/about">About</Link>
+      </div>
+      <Link to="/contact" className={styles.button}>Contact Us</Link>
     </nav>
   )
 }
