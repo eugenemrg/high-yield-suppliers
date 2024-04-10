@@ -1,3 +1,156 @@
+.home * {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
 .home{
-    /* Sample style */
+    padding: 0 10%;
+    background-image: url('../images/background.svg');
+}
+
+.hero{
+    padding-top: 96px;
+    padding-bottom: 48px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+}
+
+.headline{
+    font-size: 72px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    line-height: 1.1;
+}
+
+.subheadline{
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.sectioncta{
+    display: inline-block;
+    line-height: 1.6;
+    text-decoration: none;
+    color: #18AD00;
+    border: 1px solid rgb(24, 173, 0);
+    background-color: 1px solid rgb(24, 173, 0);
+    padding: 8px 24px;
+    border-radius: 32px;
+    margin-top: 48px;
+    background-color: white;
+}
+
+.sectioncta:hover{
+    background-color: #18AD00;
+    color: #fff;
+}
+
+.hero .image{
+    position: relative;
+}
+
+.hero .image img{
+    position: relative;
+    display: block;
+    max-width: 100%;
+    padding: 8px;
+}
+
+.about{
+    padding: 48px 20%;
+}
+
+.section1{
+    color: #18AD00;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 24px 0px;
+    text-align: center;
+}
+
+.section2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    padding: 24px 0px;
+}
+
+.section3{
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.section4{
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    line-height: 1.6;
+    text-decoration: none;
+    color: #18AD00;
+    border: 1px solid rgb(24, 173, 0);
+    background-color: 1px solid rgb(24, 173, 0);
+    padding: 8px 24px;
+    border-radius: 32px;
+    background-color: white;
+    margin-bottom: 48px;
+}
+
+.btn:hover{
+    background-color: #18AD00;
+    color: #fff;
+}
+
+.products .list{
+    padding: 8px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    overflow-y: auto;
+}
+
+.listitem{
+    min-width: 320px;
+    background-color: #F7F8FA;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.listitem p{
+    text-align: center;
+}
+
+.itemimage{
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.itemimage img{
+    display: inline-block;
+    width: 100%;
+    max-height: 160px;
+    object-fit: contain;
+}
+
+.itemname{
+    color: #18AD00;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.itemdescription{
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.services{
+    padding: 48px 20%;
 }
