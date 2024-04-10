@@ -1,3 +1,41 @@
-.footer{
-    /* Sample style */
+footer *{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    line-height: 1.8;
+}
+
+.footer {
+    padding: 48px 96px;
+    background-color: #F7F8FA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer>div {
+    padding-right: 24px;
+}
+
+.footer a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover{
+    color: rgb(101, 101, 101);
+}
+
+p.head {
+    font-size: 24px;
+    font-weight: bold;
+    color: #18AD00;
+    margin-bottom: 24px;
+}
+
+p.title {
+    color: #18AD00;
+    margin-bottom: 16px;
 }
