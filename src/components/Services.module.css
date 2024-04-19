@@ -58,10 +58,11 @@
 
 @keyframes fadeInText {
   from {
-    color: rgba(255, 255, 255, 0); 
+    color: rgba(255, 255, 255, 0);
   }
+
   to {
-    color: rgba(255, 255, 255, 0.8); 
+    color: rgba(255, 255, 255, 0.8);
   }
 }
 
@@ -105,12 +106,15 @@
 
 .serviceCol h3 {
   text-align: center;
-
+  color: #18AD00;
+  font-weight: 600;
 }
 
 .serviceCol p {
   text-align: center;
-  padding: 12px 28px;
+  padding: 12px 24px;
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 .service-col img {
