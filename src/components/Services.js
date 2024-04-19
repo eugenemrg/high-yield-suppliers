@@ -38,30 +38,24 @@ function Services() {
           <img src={heroImage} alt="image of different fruits and vegetables" />
 
           <h3>Produce</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolorem porro evenietsit amet
-            consectetur adipisicing. <br />
-            elit Consequatur dolorem porro.</p>
+          <p>Guaranteed offtake at a pre agreed sales price for poultry <br />
+            ,fish amd other fresh produce </p>
         </div>
 
         <div className={styles.serviceCol}><img src={image1} alt="image of different fruits and vegetables" />
           <h3>Technical Assistance</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolorem porro evenietsit amet
-            consectetur adipisicing. <br />
-            elit Consequatur dolorem porro.</p>
+          <p>Provision of inputs and technical assistance for the women groups. </p>
         </div>
 
         <div className={styles.serviceCol}><img src={image2} alt="image of different fruits and vegetables" />
           <h3>Nucleus Farms</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolorem porro evenietsit amet
-            consectetur adipisicing. <br />
-            elit Consequatur dolorem porro.</p>
+          <p> Nucleus farm in the same area as smallholder growers / products.
+           </p>
         </div>
 
         <div className={styles.serviceCol}><img src={image3} alt="image of different fruits and vegetables" />
           <h3>Women Groups</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolorem porro evenietsit amet
-            consectetur adipisicing. <br />
-            elit Consequatur dolorem porro.</p>
+          <p>Production under contract for both women groups and individuals. </p>
         </div>
       </div>
     </div>
