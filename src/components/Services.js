@@ -35,25 +35,25 @@ function Services() {
       <div className={styles.serviceCards}>
         <div className={styles.serviceCol}>
         
-          <img src={heroImage} alt="image of different fruits and vegetables" />
+          <img src={heroImage} alt="produce i.e. fruits and vegetables" />
 
           <h3>Produce</h3>
           <p>Guaranteed offtake at a pre agreed sales price for poultry <br />
             ,fish amd other fresh produce </p>
         </div>
 
-        <div className={styles.serviceCol}><img src={image1} alt="image of different fruits and vegetables" />
+        <div className={styles.serviceCol}><img src={image1} alt="farm machinery" />
           <h3>Technical Assistance</h3>
           <p>Provision of inputs and technical assistance for the women groups. </p>
         </div>
 
-        <div className={styles.serviceCol}><img src={image2} alt="image of different fruits and vegetables" />
+        <div className={styles.serviceCol}><img src={image2} alt="expansive lush farm" />
           <h3>Nucleus Farms</h3>
           <p> Nucleus farm in the same area as smallholder growers / products.
            </p>
         </div>
 
-        <div className={styles.serviceCol}><img src={image3} alt="image of different fruits and vegetables" />
+        <div className={styles.serviceCol}><img src={image3} alt="tea farm with framers harvesting" />
           <h3>Women Groups</h3>
           <p>Production under contract for both women groups and individuals. </p>
         </div>
