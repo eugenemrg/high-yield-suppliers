@@ -185,18 +185,24 @@ textarea {
     padding: 10px;
   }
 
-  .form {
-    width: calc(100% - 40px);
-    margin: 20px;
-    /* Adjust margin for mobile */
-    position: static;
-    /* Remove absolute positioning */
+  .contactDetails {
+    flex-direction: column-reverse; /* Reverse the order of flex items */
+    align-items: center; /* Center align the items */
+    gap: 20px;
+  }
+
+  .contactDetails > div {
+    width: 100%; 
   }
 
   .mapContainer {
-    width: calc(100% - 40px);
-    margin: 20px;
+    width: 100%;
     height: 300px;
+  }
+
+  .form {
+    width: 100%;
+    margin: 0;
   }
 
   h2 {
