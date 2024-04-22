@@ -1,11 +1,11 @@
 import React, { useRef } from 'react'
 import styles from './Home.module.css'
-import heroImage from '../images/fruits.png'
-import image1 from '../images/kisspng-salad-vegetable-tomato.png'
-import image2 from '../images/raw-chicken.png'
-import image3 from '../images/kisspng-cereal-rice-food-whole-grain-wheat-whole-grains.png'
-import image4 from '../images/duong-ngan-r7uz4y9y-Og-unsplash.png'
-import image5 from '../images/devi-puspita-amartha-yahya-Ti2QQ36R5dQ-unsplash.png'
+import heroImage from '../images/produce.webp'
+import image1 from '../images/fruits.webp'
+import image2 from '../images/meat.webp'
+import image3 from '../images/rice.webp'
+import image4 from '../images/flower.webp'
+import image5 from '../images/seedling.webp'
 import { Link } from 'react-router-dom'
 
 function Home() {
