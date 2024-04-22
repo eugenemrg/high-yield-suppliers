@@ -75,12 +75,12 @@ function Home() {
               <p className={styles.itemdescription}>Indulge in nature's bounty with our vibrant selection of farm-fresh produce, bursting with flavor and nutrients to elevate your culinary creations. We offer greens, bananas, mangoes, apples, among others</p>
             </div>
             <div className={styles.listitem}>
-              <div className={styles.itemimage}><img src={image2} alt="raw chicken" /></div>
+              <div className={styles.itemimage}><img src={image2} alt="raw meat" /></div>
               <p className={styles.itemname}>Meat and poultry products</p>
               <p className={styles.itemdescription}>Elevate your meals with our meat and poultry sourced and prepared to meet your business needs, ensuring quality and satisfaction with every order. We offer beef, mutton, eggs, fish, chicken, among others</p>
             </div>
             <div className={styles.listitem}>
-              <div className={styles.itemimage}><img src={image3} alt="wheat in and poured around a sack" /></div>
+              <div className={styles.itemimage}><img src={image3} alt="rice in a bowl" /></div>
               <p className={styles.itemname}>Dry food <br />commodities</p>
               <p className={styles.itemdescription}>Explore our pantry essentials, from hearty grains to nutritious dry foods, sourced for quality and convenience to fuel your daily adventures. We offer rice, sugar, cereals, tea leaves, flours, among others</p>
             </div>
