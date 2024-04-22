@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom';
 import styles from './Navbar.module.css'
+import logo from '../images/hys_icon_wide_512.svg'
 
 function Navbar() {
   
@@ -9,7 +10,7 @@ function Navbar() {
 
   return (
     <nav className={styles.navigation}>
-      <Link to="/" className={styles.logo}>HYS</Link>
+      <Link to="/" className={styles.logo}><img src={logo} alt="company logo" /></Link>
       <div>
         {pathname === '/' ? <a href="#products">Products</a> : <Link to="/">Home</Link>}
         <Link to="/services">Services</Link>

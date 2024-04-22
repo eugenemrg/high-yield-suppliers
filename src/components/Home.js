@@ -1,11 +1,11 @@
 import React, { useRef } from 'react'
 import styles from './Home.module.css'
-import heroImage from '../images/fruits.png'
-import image1 from '../images/kisspng-salad-vegetable-tomato.png'
-import image2 from '../images/raw-chicken.png'
-import image3 from '../images/kisspng-cereal-rice-food-whole-grain-wheat-whole-grains.png'
-import image4 from '../images/duong-ngan-r7uz4y9y-Og-unsplash.png'
-import image5 from '../images/devi-puspita-amartha-yahya-Ti2QQ36R5dQ-unsplash.png'
+import heroImage from '../images/produce.webp'
+import image1 from '../images/fruits.webp'
+import image2 from '../images/meat.webp'
+import image3 from '../images/rice.webp'
+import image4 from '../images/flower.webp'
+import image5 from '../images/seedling.webp'
 import { Link } from 'react-router-dom'
 
 function Home() {
@@ -29,6 +29,7 @@ function Home() {
     <div className={styles.home}>
       <div className={styles.hero}>
         <div>
+          <p className={styles.top}>High Yield Suppliers</p>
           <p className={styles.headline}>Unlocking value and delivering quality.</p>
           <p className={styles.subheadline}>We offer a wide range of high quality products and services at the best prices. Explore our range today.</p>
           <a className={styles.sectioncta} href="#products">Explore our products</a>
@@ -53,16 +54,18 @@ function Home() {
           <p className={styles.infosmall}>years supplying</p>
         </div>
         <div>
-          <p className={styles.infosmall}>available in</p>
+          <p className={styles.infosmall}>available in all</p>
           <p className={styles.infolarge}>47</p>
           <p className={styles.infosmall}>counties and beyond</p>
         </div>
       </div>
       <div className={styles.products} id='products'>
-        <p className={styles.section1}>our products</p>
-        <p className={styles.section2}>Discover our wide range of products</p>
-        <p className={styles.section3}>We take pride in offering a diverse range of high-quality products tailored to meet your needs. Get in touch and place your order.</p>
-        <p className={styles.section4}><Link to='/contact' className={styles.btn}>Place your order now</Link></p>
+        <div className={styles.content}>
+          <p className={styles.section1}>our products</p>
+          <p className={styles.section2}>Discover our wide range of products</p>
+          <p className={styles.section3}>We take pride in offering a diverse range of high-quality products tailored to meet your needs. Get in touch and place your order.</p>
+          <p className={styles.section4}><Link to='/contact' className={styles.btn}>Place your order now</Link></p>
+        </div>
         <div className={styles.listparent}>
           <div className={styles.listicon}><i onClick={scrollToStart} className="fa-solid fa-chevron-left"></i></div>
           <div ref={listRef}  className={styles.list}>
@@ -72,19 +75,19 @@ function Home() {
               <p className={styles.itemdescription}>Indulge in nature's bounty with our vibrant selection of farm-fresh produce, bursting with flavor and nutrients to elevate your culinary creations. We offer greens, bananas, mangoes, apples, among others</p>
             </div>
             <div className={styles.listitem}>
-              <div className={styles.itemimage}><img src={image2} alt="raw chicken" /></div>
+              <div className={styles.itemimage}><img src={image2} alt="raw meat" /></div>
               <p className={styles.itemname}>Meat and poultry products</p>
               <p className={styles.itemdescription}>Elevate your meals with our meat and poultry sourced and prepared to meet your business needs, ensuring quality and satisfaction with every order. We offer beef, mutton, eggs, fish, chicken, among others</p>
             </div>
             <div className={styles.listitem}>
-              <div className={styles.itemimage}><img src={image3} alt="wheat in and poured around a sack" /></div>
-              <p className={styles.itemname}>Dry food commodities</p>
+              <div className={styles.itemimage}><img src={image3} alt="rice in a bowl" /></div>
+              <p className={styles.itemname}>Dry food <br />commodities</p>
               <p className={styles.itemdescription}>Explore our pantry essentials, from hearty grains to nutritious dry foods, sourced for quality and convenience to fuel your daily adventures. We offer rice, sugar, cereals, tea leaves, flours, among others</p>
             </div>
             <div className={styles.listitem}>
               <div className={styles.itemimage}><img src={image4} alt="flowers" /></div>
               <p className={styles.itemname}>Fresh cut and potted flowers</p>
-              <p className={styles.itemdescription}>Add a touch of elegance to any occasion with our exquisite blooms, we freshly cut and potted flowers</p>
+              <p className={styles.itemdescription}>Add a touch of elegance to any occasion with our exquisite blooms, we offer freshly cut and potted flowers</p>
             </div>
             <div className={styles.listitem}>
               <div className={styles.itemimage}><img src={image5} alt="plant seedlings" /></div>
@@ -95,7 +98,7 @@ function Home() {
           <div className={styles.listicon}><i onClick={scrollToEnd} className="fa-solid fa-chevron-right"></i></div>
         </div>
       </div>
-      <div className={styles.servives}>
+      <div className={styles.services}>
         <p className={styles.section1}>services</p>
         <p className={styles.section2}>Beyond Freshness</p>
         <p className={styles.section3}>Dive into the core of our identity as a company through an exploration of our distinct services</p>

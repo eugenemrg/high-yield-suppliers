@@ -29,9 +29,11 @@ footer *{
 }
 
 p.head {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: bold;
+    letter-spacing: 6px;
     color: #18AD00;
+    text-transform: uppercase;
     margin-bottom: 24px;
 }
 

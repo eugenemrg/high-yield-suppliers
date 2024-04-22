@@ -14,15 +14,28 @@
 
 .navigation .logo{
     /* color: #e32124; */
-    font-weight: bold;
+    /* font-weight: bold;
     font-size: 24px;
     letter-spacing: 4px;
     padding: 0px 4px 0px 8px;
     outline: #18AD00 solid 2px;
-    text-align: center;
+    text-align: center; */
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-family: 'Corbel'; */
-    border-radius: 2px;
+    /* border-radius: 2px; */
+}
+
+.navigation .logo{
+    display: inline-block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation .logo img{
+    display: inline-block;
+    height: 32px;
 }
 
 .navigation div a{
