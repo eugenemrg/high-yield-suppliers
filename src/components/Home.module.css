@@ -18,38 +18,71 @@
     grid-template-rows: 1fr;
 }
 
+.top{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    color: #18AD00;
+    text-transform: uppercase;
+    padding: 0px 0px 24px 6px;
+}
+
 .headline{
     font-size: 72px;
     font-weight: 600;
     margin-bottom: 24px;
     line-height: 1.1;
+    opacity: 0;
+    animation: text 1.5s ease 0s 1 normal forwards;
+}
+
+@keyframes text {
+	0% {
+		opacity: 0;
+		transform: translateY(80px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 
 .subheadline{
     font-size: 16px;
     line-height: 1.6;
+    opacity: 0;
+    animation: text 1.5s ease 0s 1 normal forwards;
+    animation-delay: 0.4s;
 }
 
 .sectioncta{
     display: inline-block;
     line-height: 1.6;
     text-decoration: none;
-    color: #18AD00;
-    border: 1px solid rgb(24, 173, 0);
-    background-color: 1px solid rgb(24, 173, 0);
+    color: #fff;
+    border: 1px solid #18AD00;
+    background-color: #18AD00;
     padding: 8px 24px;
     border-radius: 32px;
     margin-top: 48px;
-    background-color: white;
+    
+    opacity: 0;
+    animation: text 1.5s ease 0s 1 normal forwards;
+    animation-delay: 0.8s;
 }
 
 .sectioncta:hover{
-    background-color: #18AD00;
-    color: #fff;
+    background-color: #fff;
+    border: 1px solid #18ad00;
+    color: #18AD00;
 }
 
 .hero .image{
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero .image img{
@@ -59,7 +92,7 @@
     padding: 8px;
 }
 
-.about{
+.about, .products .content, .services{
     padding: 0px 20%;
 }
 
@@ -81,6 +114,7 @@
 .section3{
     text-align: center;
     padding-bottom: 32px;
+    line-height: 1.6;
 }
 
 .section4{
@@ -89,7 +123,7 @@
 
 .info {
     margin-top: 16px;
-    margin-bottom: 24px;
+    margin-bottom: 48px;
     padding: 32px 64px;
     background-color: whitesmoke;
     border-radius: 32px;
@@ -97,6 +131,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 .info div p{
@@ -109,7 +144,7 @@
 }
 
 .infolarge{
-    font-weight: bold;
+    font-weight: 400;
     font-size: 64px;
     color: #18AD00;
 }
@@ -149,7 +184,6 @@
 
 .products .list{
     padding: 8px;
-    margin-bottom: 48px;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -205,15 +239,16 @@
 
 .itemname{
     color: #18AD00;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.5;
     margin-bottom: 16px;
 }
 
 .itemdescription{
     font-size: 14px;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 .services{
