@@ -1,5 +1,5 @@
 @media only screen 
-   and (min-width : 320px) {
+   and (max-width : 767px) {
     .home * {
         padding: 0;
         margin: 0;
@@ -12,11 +12,12 @@
     }
     
     .hero{
-        padding-top: 96px;
-        padding-bottom: 48px;
+        padding-top: 64px;
+        padding-bottom: 0px;
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 1fr;
         grid-template-rows: 1fr;
+        text-align: center;
     }
     
     .top{
@@ -29,7 +30,7 @@
     }
     
     .headline{
-        font-size: 72px;
+        font-size: 48px;
         font-weight: 600;
         margin-bottom: 24px;
         line-height: 1.1;
@@ -83,6 +84,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 24px 0px 0px 0px;
     }
     
     .hero .image img{
@@ -108,7 +110,7 @@
     }
     
     .about, .products .content, .services{
-        padding: 0px 20%;
+        padding: 0px 5%;
     }
     
     .section1{
@@ -121,7 +123,7 @@
     
     .section2{
         text-align: center;
-        font-size: 48px;
+        font-size: 32px;
         font-weight: 600;
         padding: 24px 0px;
     }
@@ -137,16 +139,23 @@
     }
     
     .info {
-        margin-top: 16px;
-        margin-bottom: 48px;
-        padding: 32px 64px;
-        background-color: whitesmoke;
+        margin-top: 0px;
+        margin-bottom: 16px;
+        padding: 32px;
+        background-color: white;
         border-radius: 32px;
     
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
+        gap: 32px;
+    }
+
+    .info>div:nth-child(2){
+        border-top: 1px solid #18AD00;
+        border-bottom: 1px solid #18AD00;
+        padding: 32px 0px;
     }
     
     .info div p{
@@ -155,12 +164,13 @@
     
     .infosmall{
         text-transform: uppercase;
-        line-height: 1.5;
+        line-height: 1.6;
+        font-size: 14px;
     }
     
     .infolarge{
         font-weight: 400;
-        font-size: 64px;
+        font-size: 48px;
         color: #18AD00;
     }
     
@@ -267,7 +277,7 @@
     }
     
     .services{
-        padding: 48px 20%;
+        padding: 24px 5%;
     }
 }
 
@@ -422,6 +432,12 @@ and (min-width : 768px) {
      flex-direction: row;
      justify-content: space-between;
      align-items: center;
+     gap: 0px;
+ }
+
+ .info>div{
+    border: 0px;
+    padding: 0px;
  }
  
  .info div p{
@@ -698,8 +714,14 @@ and (min-width : 768px) {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        gap: 0px;
     }
-    
+   
+    .info>div{
+       border: 0px;
+       padding: 0px;
+    }
+
     .info div p{
         text-align: center;
     }
@@ -707,6 +729,7 @@ and (min-width : 768px) {
     .infosmall{
         text-transform: uppercase;
         line-height: 1.5;
+        font-size: 16px;
     }
     
     .infolarge{
@@ -974,6 +997,12 @@ and (min-width : 1280px) {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        gap: 0px;
+    }
+
+    .info>div{
+        border: 0px;
+        padding: 0px;
     }
     
     .info div p{
@@ -983,6 +1012,7 @@ and (min-width : 1280px) {
     .infosmall{
         text-transform: uppercase;
         line-height: 1.5;
+        font-size: 16px;
     }
     
     .infolarge{
@@ -1247,6 +1277,12 @@ and (min-width : 1280px) {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        gap: 0px;
+    }
+   
+    .info>div{
+       border: 0px;
+       padding: 0px;
     }
     
     .info div p{
@@ -1256,6 +1292,7 @@ and (min-width : 1280px) {
     .infosmall{
         text-transform: uppercase;
         line-height: 1.5;
+        font-size: 16px;
     }
     
     .infolarge{
@@ -1521,6 +1558,12 @@ and (min-width : 1280px) {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        gap: 0px;
+    }
+
+    .info>div{
+        border: 0px;
+        padding: 0px;
     }
     
     .info div p{
@@ -1530,6 +1573,7 @@ and (min-width : 1280px) {
     .infosmall{
         text-transform: uppercase;
         line-height: 1.5;
+        font-size: 16px;
     }
     
     .infolarge{
