@@ -3,7 +3,7 @@
   width: 100%;
   height: 300px;
   overflow: hidden;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
 }
 
 .heroImage {
@@ -110,4 +110,126 @@
 .service-col img {
   width: 100%;
   border-radius: 10px;
+}
+
+@media only screen and (max-width : 767px) {
+  .serviceCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 32px;
+    margin-top: 0px;
+    margin-bottom: 48px;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .serviceCol {
+    flex-basis: 50%;
+    min-width: 320px;
+    max-width: 320px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    background-color: #F7F8FA;
+  }
+
+  .serviceCol h3 {
+    text-align: center;
+    color: #18AD00;
+    font-weight: 600;
+  }
+
+  .serviceCol p {
+    text-align: center;
+    padding: 12px 24px;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+  }
+
+  .serviceCol img {
+    position: relative;
+    display: inline-block;
+    width:100%;
+    border-radius: 10px 10px 0px 0px;
+  }
+}
+
+@media only screen and (min-width : 768px) {
+  .serviceCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 32px;
+    margin-top: 0px;
+    margin-bottom: 48px;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .serviceCol {
+    flex-basis: 50%;
+    min-width: 320px;
+    max-width: 320px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    background-color: #F7F8FA;
+  }
+}
+
+@media only screen and (min-width : 1040px) {
+  .serviceCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 32px;
+    margin-top: 0px;
+    margin-bottom: 48px;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .serviceCol {
+    max-width: 420px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    background-color: #F7F8FA;
+  }
+}
+
+@media only screen and (min-width : 1280px) {
+  .serviceCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0px 32px;
+    margin-top: 0px;
+    margin-bottom: 48px;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .serviceCol {
+    max-width: 320px;
+    min-width: 0px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    background-color: #F7F8FA;
+  }
 }
