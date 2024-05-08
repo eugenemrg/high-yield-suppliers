@@ -45,7 +45,7 @@ function Contact() {
           <h2>LOCATION</h2>
           <div className={styles.mapContainer}>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.70610533076!2d36.75295137415271!3d-1.3528994986342895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f05397e28212f%3A0x14f4c892c8c8e32d!2sBogani%20E%20Rd%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1713242504946!5m2!1sen!2ske"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.821743362492!2d36.824217774152515!3d-1.280635498707184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f112ae9e8dfef%3A0x3f841907eaeab8fa!2sUshindi%20Plaza%20-%204!5e0!3m2!1sen!2ske!4v1715104940587!5m2!1sen!2ske"
               width="600"
               height="500"
               style={{ border: 0 }}
