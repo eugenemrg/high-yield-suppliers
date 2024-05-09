@@ -37,25 +37,28 @@ function Services() {
         
           <img src={heroImage} alt="image of different fruits and vegetables" />
 
-          <h3>Produce</h3>
-          <p>Guaranteed offtake at a pre agreed sales price for poultry <br />
-            ,fish amd other fresh produce </p>
+          <h3>Production</h3>
+          <p>We operate a nucleus farm supported by 100+ women smallholders in Machakos county for the production of fresh fruit 
+            and vegetables, fish and poultry for the local market (Harvesting /Packaging vegetables) </p>
         </div>
 
         <div className={styles.serviceCol}><img src={image1} alt="image of different fruits and vegetables" />
           <h3>Technical Assistance</h3>
-          <p>Provision of inputs and technical assistance for the women groups. </p>
+          <p>We provide certified farm inputs and extension services to our smallholder producers enabling them to meet the precise quality and volume requirements of our 
+            buyers such as Good Agricultural Practices (GAP) (picture of Extension services / advise) </p>
         </div>
 
         <div className={styles.serviceCol}><img src={image2} alt="image of different fruits and vegetables" />
-          <h3>Nucleus Farms</h3>
-          <p> Nucleus farm in the same area as smallholder growers / products.
+          <h3>Propagation</h3>
+          <p> We have set up an in-house vegetable propagation nursery for the production of high-quality
+             planting material free of pests and diseases for our farmers (picture of a plant nursery).
            </p>
         </div>
 
         <div className={styles.serviceCol}><img src={image3} alt="image of different fruits and vegetables" />
-          <h3>Women Groups</h3>
-          <p>Production under contract for both women groups and individuals. </p>
+          <h3>Post Harvest Handling</h3>
+          <p>Our produce is cleaned, inspected and bulked on-site ready for cold-chain
+             transportation and distribution to wholesale, institutional and retail customers (picture of cold-chain transportation) </p>
         </div>
       </div>
     </div>
