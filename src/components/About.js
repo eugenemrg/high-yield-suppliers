@@ -17,7 +17,7 @@ function About() {
     return () => clearInterval(intervalId);
   }, [currentImageIndex, images.length]);
 
-  return (
+ return (
     <div className={styles.about}>
       <div className={styles.hero}>
         <img className={styles.heroImage} src={images[currentImageIndex]} alt="Hero" />
@@ -27,24 +27,25 @@ function About() {
       </div>
       <div className={styles.cardContainer}>
         <div className={`${styles.card} ${styles.vision}`}>
-          <div className={styles.circle}><h3>Vision</h3></div>
+          <div className={styles.circle}><h3>Livelihoods</h3></div>
           <p>
-            Honesty and reliability in delivering timely products and services.
-            Continually improving the value demand for new and existing clients.
-            To develop long term relationship with our clients.
-            To give to clients aspirations and requirement.
+            Women-owned and operated, integrated production system for high-value fruits and vegetables
+             100+ women as year-round producers under irrigation
           </p>
         </div>
         <div className={`${styles.card} ${styles.mission}`}>
-          <div className={styles.circle}><h3>Mission</h3></div>
+          <div className={styles.circle}><h3>Sustainability</h3></div>
           <p>
-            To offer our customers a wide range of high-quality products and services at very competitive prices and to maintain the highest standards in customer care, integrity and operational efficiency.
+           140 acres - Total dam area under eco-conservation and sustainable fish production
+           100 acres – Total area under sustainable fruit and vegetable production
+           Focus on sustainable, low-carbon, protein value chains for a growing urban population
           </p>
         </div>
         <div className={`${styles.card} ${styles.workforce}`}>
-          <div className={styles.circle}><h3>Workforce</h3></div>
+          <div className={styles.circle}><h3>Impact</h3></div>
           <p>
-            We have an energetic team comprising farmers, drivers and sales representatives. We also liaise with other farmers through digital platforms whereby we are able to source products from each other.
+            300% increase in smallholder producer incomes
+            Up to 70% expected increase in margins due to enhanced value chain efficiency 
           </p>
         </div>
       </div>
