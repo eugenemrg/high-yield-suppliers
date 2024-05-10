@@ -49,8 +49,8 @@ function Services() {
         </div>
 
         <div className={styles.serviceCol}><img src={image2} alt="image of different fruits and vegetables" />
-          <h3>Propagation</h3>
-          <p> We have set up an in-house vegetable propagation nursery for the production of high-quality
+          <h3>Propagation </h3>
+          <p> We have set up an in-house vegetables propagation nursery for the production of high-quality
              planting material free of pests and diseases for our farmers (picture of a plant nursery).
            </p>
         </div>
